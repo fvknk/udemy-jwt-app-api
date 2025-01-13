@@ -47,3 +47,13 @@ group :development, :test do
 
   gem 'rspec-rails', '~> 7.0.0', require: false
 end
+
+group :development do
+  gem "ruby-lsp"
+  gem "rubocop"
+  gem "rubocop-packaging"
+  gem "rubocop-performance"
+  gem "rubocop-rspec"
+  gem "rubocop-shopify"
+  gem "rubocop-thread_safety"
+end
